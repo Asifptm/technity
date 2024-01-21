@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-container">
+     
+      <img src="https://img.freepik.com/free-vector/illustration-circle-stamp-banner-vector_53876-27183.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais" alt="Quiz Logo" class="logo">
+    <div class="content">
+     <h1>Quiz App</h1>
+    <div id="question-container"></div>
+    <div id="options-container"></div>
+  <div id="progress-container">
+  <p>Question <span id="question-number"></span></p>
+</div>
+
+
+    <button onclick="startTimer()"  class="timer-btn">
+      <i class="fas fa-clock"></i> Start Timer
+    </button>
+    
+    <div id="timer-container"></div>
+    
+    
+    
+    <audio id="timeUpSound">
+  <source src="hotel-bell-ding-1-174457.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+    
+    <button onclick="showAnswer()"   class="show-answer-btn">
+      <i class="fas fa-eye"></i> Show Answer
+    </button>
+    <button onclick="goToNextQuestion()">
+      <i class="fas fa-arrow-right"></i> Next Question
+    </button>
+    <div id="result-container"></div>
+    <button onclick="startNextLevel()" id="next-level-btn" style="display:none;">
+      <i class="fas fa-level-up-alt"></i> Start Next Level
+    </button>
+    </div>
+    <div class="footer">
+      <p>Copywrite @ Technity 2024 </p>
+    </div>
+  </div>
+
+  
+
+  <script src="main.js"></script>
+</body>
+</html>

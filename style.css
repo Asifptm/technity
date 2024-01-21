@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+     background-color: #f2f2f2; 
+    color: #8a63a1; /* Light purple text color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #quiz-container {
+    max-width: 700px;
+     position: relative;
+    margin: 0 auto;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #question-container {
+    font-size: 18px;
+    margin-bottom: 20px;
+      margin-bottom: 30px;
+  }
+
+  #options-container {
+    text-align: left;
+      margin-top: 10px;
+  }
+
+  .option {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #f2f2f2; /* Light gray background color for options */
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+/* Style for the <p> element */
+#result-container p {
+font-size: 18px;
+
+margin-top: 10px;
+margin-bottom:30px;
+}
+  .option:hover {
+    background-color: #e6e6e6; /* Darker gray on hover */
+  }
+
+  button {
+       background-color: #7b21a5; /* Light purple button color */  margin: 10px;
+    color: #ffffff;
+    border-style: ridge;
+    border:2px solid  #9453b9 ;
+    padding: 10px 20px;
+    border: none;
+  
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    
+     background-color: #000; /* Darker purple on hover */
+  }
+
+#next-level-btn {
+background-color: #ffffff;
+color: #7d28c2;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 50px;
+border: none;
+border:2px solid  #9453b9 ;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+display: none;
+align-items: center;
+}
+
+.timer-btn {
+background-color: #FF6347;
+ margin-top: 10px;
+ 
+/* Light red color */
+}
+
+/* Apply styles when hovering over buttons */
+#next-level-btn:hover {
+background-color: #6e63a3;
+color: #f2f2f2;
+border: none;
+}
+
+  #result-container {
+    margin-top: 20px;
+    margin-bottom:50px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #timer-container {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  
+img {
+max-width: 100%;
+margin-top: 20px;
+border-radius: 10px;
+ margin-bottom: 40px;
+}
+/* Margin between icon and text in buttons */
+button i {
+margin-right: 5px;
+ font-size: 16px;
+}
+.show-answer-btn {
+background-color: #4CAF50; 
+ margin-bottom: 30px; 
+/* Green color */
+}
+
+/* Apply styles when hovering over buttons */
+.copyright-text {
+font-size: 14px;
+color: #555;
+margin-top: 40px;
+ /* Adjust margin-bottom to set the distance from the bottom */
+}
+
+/* Add this CSS to your existing styles.css file */
+.logo {
+position: absolute;
+top: 0px;
+ margin-bottom: 40px;
+right: 10px;
+max-width: 60px; /* Adjust the max-width based on your logo size */
+}
+
+
+
+.footer {
+ position: absolute;
+bottom: 0px;
+right:40%;
+
+  margin-top: 40px;
+ font-size: 13px;
+text-align: center;
+}
+
+.content {
+margin-top: 10px; /* Add your preferred margin size */
+}
+/* Add your existing styles here, and then add styles for the progress container text */
+
+#progress-container {
+text-align: center;
+margin-bottom: 20px;
+}
+
+#progress-container p {
+font-size: 18px;
+font-weight: bold;
+ /* Add your preferred text color */
+}
+
+#progress-container span {
+font-size: 16px;
+  font-weight: bold;
+color: #666; /* Add your preferred text color */
+}
